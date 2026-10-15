@@ -1,0 +1,52 @@
+<nav id="site-nav" class="navbar navbar-expand-sm navbar-dark bg-dark"
+   role="navigation" aria-label="Main navigation">
+
+   <div class="container">
+       <!-- No brand/logo -->
+       <button class="navbar-toggler" type="button"
+           data-bs-toggle="collapse"
+           data-bs-target="#nav"
+           aria-controls="nav"
+           aria-expanded="false"
+           aria-label="Toggle navigation">
+
+           <span class="navbar-toggler-icon"></span>
+       </button>
+       <div id="nav" class="collapse navbar-collapse">
+           <div class="navbar-nav">
+               <a class="nav-link" href="index.html">Home</a>
+               <a class="nav-link" href="Education.html">Education</a>
+               <a class="nav-link" href="project.html">Projects</a>
+           </div>
+       </div>
+       <html>
+ <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+   </div>
+</nav>
